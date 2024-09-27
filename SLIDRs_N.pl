@@ -38,7 +38,7 @@ if ($msg2usr or $help) {
 
 warn "$msg2usr\n\n" if $msg2usr and not $help;
 
-print "version N. The copyright/years updated.\n";
+print "version N. Copyright/years updated.\n";
 print "version M. Reports the total count of hits found.\n";
 print "version K. Reports sites with user-defined patterns for the context; -context_pattern flag.\n";
 print "version J. Very buggy version, it is the time to rewrite the code with proper structuring with subroutines.\n";
