@@ -38,6 +38,7 @@ if ($msg2usr or $help) {
 
 warn "$msg2usr\n\n" if $msg2usr and not $help;
 
+print "version N. The copyright/years updated.\n";
 print "version M. Reports the total count of hits found.\n";
 print "version K. Reports sites with user-defined patterns for the context; -context_pattern flag.\n";
 print "version J. Very buggy version, it is the time to rewrite the code with proper structuring with subroutines.\n";
@@ -65,7 +66,7 @@ print "\t-context_pattern:\tFlanking sequences are searched for specific pattern
 print "\t-report_all:\tReport stats on all sequences whether tirget sites/contexts are found or not\n";
 
 print "(C):\n";
-print "\tSerge Smirnov, John Antos, Western Washington University, smirnos\@wwu.edu, 2019-2024\n";
+print "\tSerge Smirnov, John Antos, Western Washington University, smirnos\@wwu.edu, antosj\@wwu.edu, 2019-2024\n";
 exit(0) if not $debug; 
 }
 
